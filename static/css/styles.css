@@ -1,0 +1,79 @@
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hello{
+    font-size: 17px;
+    background: rgb(236,224,211, 0.7);
+}
+
+.bc{
+    background: rgba(255, 229, 112, 0.37);
+    border: 1px solid black;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    box-shadow: 0 0 16px grey;
+    border-radius: 16px;
+}
+a.text:active, /* активная/посещенная ссылка */
+a.text:hover,  /* при наведении */
+a.text {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+a.text{
+    background: rgba(49, 231, 255, 0.493);
+}
+a.text:active{
+    background: rgb(73, 122, 145);
+}
+a.text:visited{
+    background: rgba(216, 150, 255, 0.521);
+}
+a.text:hover{
+    font-size: 20px;
+}
+
+a.button:active, /* активная/посещенная ссылка */
+a.button:hover,  /* при наведении */
+a.button {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+a.button{
+    font-size: 20px;
+}
+a.button:active{
+    font-size: 20px;
+}
+a.button:visited{
+    font-size: 20px;
+}
+a.button:hover{
+    font-size: 20px;
+}
+
+.backg{
+    background: url("/static/Background.jpg") no-repeat 50% 0px; /* Сетка слева */
+}
+
+.active {
+    background-color: yellow;
+}
+.navbac{
+    opacity: 0.9;
+    background: rgb(236,224,211);
+    position: relative;
+    float: left;
+}
+
+.img{
+    width: 300px;
+}
+.imgs{
+    width: 400px;
+}
